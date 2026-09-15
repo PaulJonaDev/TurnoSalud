@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sala de espera · Sede Av. 68</title>
+  <title>Sala de espera · TurnoSalud</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
@@ -15,7 +15,7 @@
     <div class="barra__marca">
       <span class="barra__cruz" aria-hidden="true"></span>
       <div>
-        <p class="barra__entidad">Compensar</p>
+        <p class="barra__entidad">TurnoSalud</p>
         <p class="barra__sede">Sede Av. 68 · Atención al usuario</p>
       </div>
     </div>
@@ -24,24 +24,17 @@
 
   <main class="tablero">
 
-    <!-- ============================================================
-         VISOR PRINCIPAL
-         El número grande que se ve desde el fondo de la sala.
-         ============================================================ -->
+    
     <section class="visor" aria-live="polite">
       <p class="visor__rotulo">Turno en atención</p>
 
-      <!-- HUECO 1: este párrafo necesita un id -->
       <p class="visor__Numero"  id="visorNumero">— — —</p>
 
-      <!-- HUECO 2: este párrafo necesita un id -->
+     
       <p class="visor__Modulo"  id="visorModulo">Esperando llamado</p>
     </section>
 
-    <!-- ============================================================
-         PANEL DE CONTROL
-         Lo que usa la persona del módulo, no el usuario de la sala.
-         ============================================================ -->
+    
     <section class="panel">
       <h2 class="panel__titulo">Panel del módulo</h2>
 
@@ -51,7 +44,7 @@
 
       <div class="panel__campo">
         <label class="panel__etiqueta" for="buscador">Buscar en la fila</label>
-        <!-- HUECO 3: este input necesita un id -->
+      
         <input
         id="buscador"
           class="panel__input"
@@ -61,25 +54,21 @@
 
       <div class="panel__conteo">
         <p class="conteo">
-          <!-- HUECO 4: este span necesita un id -->
+          
           <span class="conteo__cifra" id="contadorFila">0</span>
           <span class="conteo__texto">en espera</span>
         </p>
       </div>
     </section>
 
-    <!-- ============================================================
-         FILA DE ESPERA
-         Aquí se pintan los turnos desde JavaScript.
-         Este <ul> arranca vacío a propósito.
-         ============================================================ -->
+    
     <section class="fila">
       <div class="fila__encabezado">
         <h2 class="fila__titulo">Fila de espera</h2>
         <p class="fila__nota">Orden de llegada</p>
       </div>
 
-      <!-- HUECO 5: esta lista necesita un id -->
+      
       <ul class="fila__lista" id="listaEspera"></ul>
 
       <p class="fila__vacia" id="mensajeVacio">No hay turnos cargados.</p>
@@ -88,8 +77,7 @@
   </main>
 
   <footer class="pie">
-    <p>© 2026 Ana Alvarado · Educadora Tech &amp; Desarrolladora Full Stack · Todos los derechos reservados · linkedin.com/in/ana-alvarado-instructora-full-stack</p>
-  </footer>
+    <p> 2026 Jonathan Paul &amp; Desarrollador Full Stack · TurnoSalud</p>
 
   <script src="./app.js"></script>
 </body>
