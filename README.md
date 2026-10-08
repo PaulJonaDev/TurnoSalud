@@ -15,12 +15,12 @@
 
 <br>
 
-<!-- ACTIVA ESTE BLOQUE CUANDO PUBLIQUES EL DEMO EN GITHUB PAGES (reemplaza la URL)
+
 <a href="https://pauljonadev.github.io/TurnoSalud/">
   <img src="https://img.shields.io/badge/▶_Ver_demo_en_vivo-0f766e?style=for-the-badge" alt="Ver demo en vivo">
 </a>
 <br><br>
--->
+
 
 [🎯 El problema](#-el-problema) · [💡 La solución](#-la-solución) · [✨ Funciones](#-qué-hace-turnosalud) · [🧠 Lo técnico](#-lo-técnico) · [🚀 Probarlo](#-probarlo-en-local)
 
